@@ -38,6 +38,7 @@ def game_over(escolha_das_casas):
         print('🧙❌ Opção inválida! Digite A ou B.')
         game_over(escolha_das_casas)
 
+
 def registro():
     global nome_jogador
 
@@ -150,6 +151,7 @@ def nivel_1(escolha_das_casas):
     elif xp_total >= 30:
         print('\n🦉・Você passou para o Nível 2!')
         nivel_2(escolha_das_casas)
+
 
 def nivel_2(escolha_das_casas):
     global xp_total, erros, nivel, erros_totais
